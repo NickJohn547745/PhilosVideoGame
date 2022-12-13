@@ -3,6 +3,7 @@ import './App.css';
 
 import React, { useRef } from 'react'
 import Button from '@mui/material/Button'
+import { Radio, RadioGroup } from '@mui/material'
 import ReactPlayer from 'react-player'
 import {PhilVideoPlayer} from './Components/VideoComponent'
 
@@ -63,6 +64,7 @@ function App() {
                 <PhilVideoPlayer
                     url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
                     ref={playerRef}
+                    style={{ margin: '0 auto' }}
                     onProgress={onProgress}
                     playing={playing}
                     onPlay={play}
@@ -70,6 +72,13 @@ function App() {
                 />
             </div>
             <div id="quizDiv">
+                <RadioGroup class="quiz" row>
+                    <Radio value="option1" /><b> 1 </b>
+                    <Radio value="option2" /> 2 
+                    <Radio value="option3" /> 3 
+                    <Radio value="option4" /> 4 
+                    <Radio value="option5" /><b> 5 </b>
+                </RadioGroup>
             </div>
         </div>
     );

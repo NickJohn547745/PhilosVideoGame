@@ -18,6 +18,14 @@ code {
 
 #videoDiv {
     display: none;
-    width: 50%;
+}
+
+#quizDiv {
+    display: none;
+    width: 100%;
+}
+
+.quiz {
     margin: 0 auto;
+    width: 50%;
 }
