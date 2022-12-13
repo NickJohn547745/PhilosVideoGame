@@ -3,9 +3,9 @@ import './App.css';
 
 import React, { useRef } from 'react'
 import Button from '@mui/material/Button'
-import { Radio, RadioGroup } from '@mui/material'
-import ReactPlayer from 'react-player'
-import {PhilVideoPlayer} from './Components/VideoComponent'
+
+import { PhilVideoPlayer } from './Components/VideoComponent'
+import { ButtonOneToFive } from './Components/OneToFiveBtn';
 
 function App() {
     const playerRef = useRef(null);
@@ -72,13 +72,7 @@ function App() {
                 />
             </div>
             <div id="quizDiv">
-                <RadioGroup class="quiz" row>
-                    <Radio value="option1" /><b> 1 </b>
-                    <Radio value="option2" /> 2 
-                    <Radio value="option3" /> 3 
-                    <Radio value="option4" /> 4 
-                    <Radio value="option5" /><b> 5 </b>
-                </RadioGroup>
+                <ButtonOneToFive />
             </div>
         </div>
     );
