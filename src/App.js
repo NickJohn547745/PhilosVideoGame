@@ -62,6 +62,7 @@ function App() {
                 <ReactPlayer id="videoPlayer"
                     ref={playerRef}
                     url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
+                    style={{ margin: '0 auto' }}
                     onProgress={onProgress}
                     controls={true}
                     playing={playing}
