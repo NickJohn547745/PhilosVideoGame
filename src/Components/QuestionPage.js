@@ -19,19 +19,19 @@ export function QuestionPage(props) {
                 <p>{props.context}</p>
             </div>
             <hr class="quizDivider"></hr>
-            <Question content="1) The provided clip shows the only reasonable actions." number="1"/>
+            <Question content="The provided clip shows the only reasonable actions." number="1"/>
             <ButtonOneToFive />
 
-            <Question content="2) The provided clip shows actions which were necessary." number="2"/>
+            <Question content="The provided clip shows actions which were necessary." number="2"/>
             <ButtonOneToFive />
 
-            <Question content="3) The provided clip represents what I would do in the situation." number="3"/>
+            <Question content="The provided clip represents what I would do in the situation." number="3"/>
             <ButtonOneToFive />
 
-            <Question content="4) The provided clip does not affect me." number="4"/>
+            <Question content="The provided clip does not affect me." number="4"/>
             <ButtonOneToFive />
 
-            <Question content="5) The provided clip raises a moral or ethical question/point." number="5"/>
+            <Question content="The provided clip raises a moral or ethical question/point." number="5"/>
             <ButtonOneToFive />
 
             <Button onClick={submit} variant="contained">Continue</Button>
