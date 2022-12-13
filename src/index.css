@@ -13,7 +13,8 @@ code {
 }
 
 .desc {
-    margin: 10%;
+    margin: 0 auto;
+    width: 50%;
 }
 
 #videoDiv {
@@ -26,6 +27,16 @@ code {
 }
 
 .quiz {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.context {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.quizDivider {
     margin: 0 auto;
     width: 50%;
 }
