@@ -83,60 +83,60 @@ function App() {
                     />
                 </div>
 
-                <div id="video12">
+                <div id="video31">
                     <PhilVideoPlayer
-                        url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
-                        startTime={24}
-                        endTime={34}
-                        quizId="page12"
-                        videoId="video12"
+                        url="https://www.youtube.com/watch?v=r-k_H50cBj8"
+                        startTime={40}
+                        endTime={50}
+                        quizId="page31"
+                        videoId="video31"
                     />
                 </div>
-                <div id="video12">
+                <div id="video32">
                     <PhilVideoPlayer
-                        url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
-                        startTime={24}
-                        endTime={34}
-                        quizId="page12"
-                        videoId="video12"
-                    />
-                </div>
-
-                <div id="video12">
-                    <PhilVideoPlayer
-                        url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
-                        startTime={24}
-                        endTime={34}
-                        quizId="page12"
-                        videoId="video12"
-                    />
-                </div>
-                <div id="video12">
-                    <PhilVideoPlayer
-                        url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
-                        startTime={24}
-                        endTime={34}
-                        quizId="page12"
-                        videoId="video12"
+                        url="https://www.youtube.com/watch?v=r-k_H50cBj8"
+                        startTime={373}
+                        endTime={439}
+                        quizId="page32"
+                        videoId="video32"
                     />
                 </div>
 
-                <div id="video12">
+                <div id="video41">
                     <PhilVideoPlayer
                         url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
                         startTime={24}
                         endTime={34}
-                        quizId="page12"
-                        videoId="video12"
+                        quizId="page41"
+                        videoId="video41"
                     />
                 </div>
-                <div id="video12">
+                <div id="video42">
                     <PhilVideoPlayer
                         url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
                         startTime={24}
                         endTime={34}
-                        quizId="page12"
-                        videoId="video12"
+                        quizId="page42"
+                        videoId="video42"
+                    />
+                </div>
+
+                <div id="video51">
+                    <PhilVideoPlayer
+                        url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
+                        startTime={24}
+                        endTime={34}
+                        quizId="page51"
+                        videoId="video51"
+                    />
+                </div>
+                <div id="video52">
+                    <PhilVideoPlayer
+                        url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
+                        startTime={24}
+                        endTime={34}
+                        quizId="page52"
+                        videoId="video52"
                     />
                 </div>
             </div>
@@ -179,6 +179,16 @@ function App() {
                     by their own daughter's tears. They deduce that the only way to return to their human 
                     form is to get their daughter, Rose, to cry on them again. To do this they decide to
                     kill off Rose's favorite stuffed animal, Cutie the elephant."
+                    />
+                </div>
+                <div id="page31">
+                    <QuestionPage nextVideoId="video32" quizId="page31"
+                        context="In the game Grand Theft Auto V, there is a scene where the character Trevor tortures another man. The scene takes place in a dingy and dimly-lit warehouse, with Trevor standing over the man who is tied to a chair. Trevor is known for his ruthless and violent nature, and in this scene he uses various methods to try to extract information from the man. He punches and kicks him, threatens him with a knife, and uses waterboarding to try to get the man to talk. The man, clearly terrified, begs for mercy and tries to hold out as long as he can, but ultimately he gives in and reveals what Trevor wants to know. The scene is intense and graphic, and shows Trevor's ruthless and violent side."
+                    />
+                </div>
+                <div id="page32">
+                    <QuestionPage nextVideoId="video41" quizId="page32"
+                        context="In the game Grand Theft Auto V, there is a scene where the character Trevor tortures another man. The scene takes place in a dingy and dimly-lit warehouse, with Trevor standing over the man who is tied to a chair. Trevor is known for his ruthless and violent nature, and in this scene he uses various methods to try to extract information from the man. He punches and kicks him, threatens him with a knife, and uses waterboarding to try to get the man to talk. The man, clearly terrified, begs for mercy and tries to hold out as long as he can, but ultimately he gives in and reveals what Trevor wants to know. The scene is intense and graphic, and shows Trevor's ruthless and violent side."
                     />
                 </div>
             </div>
