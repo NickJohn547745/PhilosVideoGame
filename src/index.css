@@ -19,3 +19,13 @@ code {
 #videoDiv {
     display: none;
 }
+
+#quizDiv {
+    display: none;
+    width: 100%;
+}
+
+.quiz {
+    margin: 0 auto;
+    width: 50%;
+}
