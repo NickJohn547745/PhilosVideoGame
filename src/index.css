@@ -21,8 +21,12 @@ code {
     display: none;
 }
 
+#videoPlayer {
+    width: 100%;
+    margin: 0 auto;
+}
+
 #quizDiv {
-    display: none;
     width: 100%;
 }
 
@@ -39,4 +43,75 @@ code {
 .quizDivider {
     margin: 0 auto;
     width: 50%;
+}
+
+#video12 {
+    display: none;
+}
+
+#video21 {
+    display: none;
+}
+
+#video22 {
+    display: none;
+}
+
+#video31 {
+    display: none;
+}
+
+#video32 {
+    display: none;
+}
+
+#video41 {
+    display: none;
+}
+
+#video42 {
+    display: none;
+}
+
+#video51 {
+    display: none;
+}
+
+#video52 {
+    display: none;
+}
+
+#page11 {
+    display: none;
+}
+#page12 {
+    display: none;
+}
+#page21 {
+    display: none;
+}
+
+#page22 {
+    display: none;
+}
+#page31 {
+    display: none;
+}
+
+#page32 {
+    display: none;
+}
+#page41 {
+    display: none;
+}
+
+#page42 {
+    display: none;
+}
+#page51 {
+    display: none;
+}
+
+#page52 {
+    display: none;
 }
