@@ -14,7 +14,7 @@ code {
 
 .desc {
     margin: 0 auto;
-    width: 50%;
+    width: 600px;
 }
 
 #videoDiv {
@@ -114,4 +114,10 @@ code {
 
 #page52 {
     display: none;
+}
+
+#results {
+    display: none;
+    width: 600px;
+    margin: 0 auto;
 }

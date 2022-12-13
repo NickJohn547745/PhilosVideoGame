@@ -35,6 +35,22 @@ function App() {
                     data on your reaction.
                     <br />
                     <br />
+                    <b>Instructions:</b>
+                    <br />
+                    When you begin, simply start the clips as they
+                    appear. They will automatically pause and transition
+                    into the quiz.
+                    <br />
+                    <br />
+                    <b>Purpose:</b>
+                    <br />
+                    The purpose of this experiment is to test out a
+                    new form of survey taking which involves an
+                    interactive component. This way we can stimulate 
+                    and engage the subject as they progress through 
+                    the survey questions.
+                    <br />
+                    <br />
                     <b>Authors:</b>
                     <br />
                     Andrew Wilkes
@@ -139,6 +155,10 @@ function App() {
                         videoId="video52"
                     />
                 </div>
+                <div id="results">
+                    <h2>Survey Completed!</h2>
+                    <p>Thank you for completing our interactive survey. Your results have been submitted and are appreciated. Have a wonderful day.</p>
+                </div>
             </div>
             <div id="quizDiv">
                 <div id="page11">
@@ -207,7 +227,7 @@ function App() {
                     />
                 </div>
                 <div id="page52">
-                    <QuestionPage nextVideoId="video61" quizId="page52"
+                    <QuestionPage nextVideoId="results" quizId="page52"
                         context="In the game A Way Out, the player's character is tasked with killing Vincent, a dangerous criminal who has been causing havoc in the city. The scene takes place in a warehouse, where Vincent is hiding out and planning his next move. The player must carefully make their way through the warehouse, using stealth and cunning to avoid detection. As they get closer to Vincent, the tension mounts, and when they finally confront him, they must make the tough decision to either try to reason with him or take him out by any means necessary. In the end, the player must make a quick and decisive move to take Vincent down, bringing an end to his reign of terror."
                     />
                 </div>
