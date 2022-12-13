@@ -1,23 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
 
-import * as React from 'react';
+import React, { useRef } from 'react'
 import Button from '@mui/material/Button'
 import ReactPlayer from 'react-player'
 
 function App() {
+    const playerRef = useRef(null);
+
+    const [playing, setPlaying] = React.useState(false)
+    const play = () => setPlaying(true)
+    const pause = () => setPlaying(false)
+
     function startFirst() {
         var welcomeDiv = document.getElementById("welcomeComponents");
-        var firstDiv = document.getElementById("firstDiv");
+        var videoDiv = document.getElementById("videoDiv");
         var videoPlayer = document.getElementById("videoPlayer");
 
         welcomeDiv.style.display = 'none';
-        firstDiv.style.display = 'block';
-        videoPlayer.muted = true;
-        videoPlayer.playing = true;
+        videoDiv.style.display = 'block';
     }
 
-    const playerRef = React.useRef();
+    const onProgress = (state) => {
+        if (state.playedSeconds >= 24) {
+            console.log(playerRef.current);
+            setPlaying(false);
+
+            var videoDiv = document.getElementById("videoDiv");
+            var quizDiv = document.getElementById("quizDiv");
+
+            videoDiv.style.display = 'none';
+            quizDiv.style.display = 'block';
+        }
+    }
 
     return (
         <div className="App">
@@ -43,14 +58,18 @@ function App() {
                 </p>
                 <Button onClick={startFirst} variant="contained">Begin Survey</Button>
             </div>
-            <div id="firstDiv">
-                <ReactPlayer id="videoPlayer" url="https://www.youtube.com/watch?v=ysz5S6PUM-U" ref={playerRef} config={{
-                    youtube: {
-                        playerVars: {
-                            start: 33
-                        }
-                    }
-                }} />
+            <div id="videoDiv">
+                <ReactPlayer id="videoPlayer"
+                    ref={playerRef}
+                    url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
+                    onProgress={onProgress}
+                    controls={true}
+                    playing={playing}
+                    onPlay={play}
+                    onPause={pause}
+                />
+            </div>
+            <div id="quizDiv">
             </div>
         </div>
     );
