@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import ReactPlayer from 'react-player'
+import ReactPlayer from './react-player'
 
 export function PhilVideoPlayer(props) {
     const playerRef = useRef(null);
