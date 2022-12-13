@@ -4,6 +4,7 @@ import './App.css';
 import React, { useRef } from 'react'
 import Button from '@mui/material/Button'
 import ReactPlayer from 'react-player'
+import {PhilVideoPlayer} from './Components/VideoComponent'
 
 function App() {
     const playerRef = useRef(null);
@@ -59,11 +60,10 @@ function App() {
                 <Button onClick={startFirst} variant="contained">Begin Survey</Button>
             </div>
             <div id="videoDiv">
-                <ReactPlayer id="videoPlayer"
-                    ref={playerRef}
+                <PhilVideoPlayer
                     url="https://www.youtube.com/watch?v=8NMnnMRWJ-0"
+                    ref={playerRef}
                     onProgress={onProgress}
-                    controls={true}
                     playing={playing}
                     onPlay={play}
                     onPause={pause}
